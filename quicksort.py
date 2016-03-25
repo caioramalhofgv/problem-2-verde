@@ -20,9 +20,9 @@ def div(A,x,y):
     A[i-1], A[x] = A[x], A[i-1]
     return i-1
     
-A = [ ]
+B = [ ]
 for line in open('QuickSort.txt','r').readlines():
-    A.append(int(line))
+    B.append(int(line))
 
-quicksort(A,0,len(A))
+quicksort(B,0,len(B))
 \\164123
